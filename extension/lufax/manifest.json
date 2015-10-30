@@ -1,0 +1,21 @@
+{
+  "name": "撸金所",
+  "description": "“稳盈-变现通”产品界面优化",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "https://list.lu.com/list/bianxiantong*",
+    "https://promo.lu.com/transfer/v1/status_error.html"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://list.lu.com/list/bianxiantong*"],
+      "js": ["jquery-1.11.3.min.js", "bianxiantong.js"]
+    },
+    {
+      "matches": ["https://promo.lu.com/transfer/v1/status_error.html"],
+      "js": ["status_error.js"]
+    }
+  ],
+  "manifest_version": 2
+}

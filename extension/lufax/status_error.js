@@ -1,0 +1,1 @@
+window.location.href = 'https://list.lu.com/list/bianxiantong?minMoney=100000&maxMoney=100000&minDays=3&maxDays=3';
